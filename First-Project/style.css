@@ -1,0 +1,231 @@
+* {
+ margin: 0;
+ font-family: Roboto, Arial ;
+ box-sizing: border-box;
+ 
+}
+
+
+
+/* Header css start from here */
+
+
+.header{
+    background-image: url(photo/sprite.jpg) ;
+    height: 550px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container{
+    
+    height: 500px;
+    width: 1500px;
+    margin: 0 115px 0 115px;
+    padding: 0 55px 0 55px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-header{
+    height: 34px;
+    width: 1100px;
+    position: absolute;
+    top: 2px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.brand-logo{
+    height: 30px;
+    width: 75px;
+    max-width: 100%;
+    
+}
+
+.icons{
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+  
+    
+}
+
+.all-icons{
+    display: flex;
+    right: 0px;
+    position: absolute;
+}
+
+
+.middel-text{
+    height: 360px;
+    width: 800px;
+    color: white;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.middel-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px ;
+    text-align: center;
+}
+
+.middel-text p{
+    font-size: 24px ;
+    line-height: 31px;
+    color: rgb(186, 184, 182);
+    margin-top: 5px ;
+
+}
+
+.navbar{
+    height: 34px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -5px
+    
+}
+
+.navbar-items{
+    display: flex;
+    position: absolute;
+    left: 20px;
+}
+
+.buttom{
+    display: flex;
+    position: absolute;
+    right: 2px;
+    background-color: black;
+    color: rgb(185, 185, 185);
+    font-size: 15px;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 4px 10px;
+    border-radius: 5px
+}
+
+
+.navbar li {
+    display: inline;
+    
+    
+  }
+
+  li a {
+ 
+    color: rgb(185, 185, 185);
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 12px;
+    transition: 0.1s;
+
+}
+
+.navbar-items li:hover a {
+    color: white;
+    zoom: 1.2;
+}
+
+
+/* Header css End  here */
+
+
+
+.post-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin: 60px 180px 40px 180px;
+  
+}
+
+.photo {
+    width: 100%;
+   
+}
+
+.profile-pic{
+    width:34px;
+    border-radius: 50%;
+    
+}
+
+.post-info-grid{
+    display: grid;
+   margin-top: 10px;
+    
+}
+
+.post-title{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+
+.post-discription{
+    font-size: 17px;
+    line-height: 28px;
+    color: rgb(68, 67, 67);
+}
+
+
+
+.post-fotner{
+    margin-top: 25px;
+    color: rgb(186, 184, 182);
+}
+
+.post-fotner,
+.post-left-footner
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.post-left-footner{
+   position: absolute;
+   left: 1px;
+
+}
+.post-ststs{
+    position: absolute;
+    right: 1px;
+}
+
+.profile-pic{
+    margin-right: 5px;
+}
+
+
+
+.site-footer{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    font-size: 20px;
+    color: white;
+
+}
